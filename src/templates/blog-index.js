@@ -45,7 +45,7 @@ class BlogIndexTemplate extends React.Component {
                 <header>
                   <h3
                     style={{
-                      fontFamily: 'Montserrat, sans-serif',
+                      font-family: 'Quattrocento', serif;
                       fontSize: rhythm(1),
                       marginBottom: rhythm(1 / 4),
                     }}
@@ -98,7 +98,7 @@ export const pageQuery = graphql`
           }
           timeToRead
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(formatString: "DD MMMM, YYYY")
             title
             spoiler
           }
