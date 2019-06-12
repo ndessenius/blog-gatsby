@@ -45,7 +45,7 @@ class BlogIndexTemplate extends React.Component {
                 <header>
                   <h3
                     style={{
-                      font-family: 'Quattrocento', serif;
+                      fontFamily: 'Quattrocento, serif',
                       fontSize: rhythm(1),
                       marginBottom: rhythm(1 / 4),
                     }}
